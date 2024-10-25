@@ -1,0 +1,278 @@
+body {
+    font-family: "Roboto", serif;
+    color: white;
+    background-color:#002e5e;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+
+img {
+    object-fit: cover;
+}
+
+header, footer {
+    background-color: #002e5e;
+}
+
+header {
+    height: 15vh;
+}
+
+.headercontainer {
+    padding: 0 1.5rem;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logoandtext {
+    display: inline-flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#discoveryLogo {
+    height: 6.25rem;
+}
+
+#title {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#title h1, #title h3 {
+    margin: 0;
+    padding: 0;
+}
+
+.navbar ul {
+    display: flex;
+    gap: 1.25rem;
+    list-style: none;
+    font-size: 1.5rem;
+}
+
+#bigpicture {
+    width: 100%;
+    height: 85vh;
+    background-color: white;
+}
+
+.schoollikenoother {
+    background-color: white;
+    height: 40vh;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.schoollikenoother h2 {
+    color: #3cbbff;
+    font-weight: lighter;
+    font-size: 3rem;
+    margin: 0px;
+    margin-bottom: 2.5rem;
+}
+
+.schoollikenoother p {
+    margin: 0;
+    padding: 0 25%;
+}
+
+.cursive {
+    font-family: "Dancing Script", cursive;
+    color: #123a96;
+    font-size: 6.25rem;
+}
+
+.blue {
+    color: #002e5e;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.light {
+    font-weight: 1;
+}
+
+.normal {
+    font-weight: normal;
+}
+
+.images {
+    padding: 0;
+    margin: 0;
+}
+
+.facts .row1, .facts .row2 {
+    width: 100%;
+    display: flex;
+}
+
+.facts .row1 {
+    background-color: #123a96;
+}
+
+.facts .row1 img {
+    max-width: 50%;
+}
+
+.facts .row1 p {
+    width: 28rem;
+}
+
+.facts .row2 {
+    background-color: #050948;
+}
+
+.facts .row2 img {
+    max-width: 33%;
+}
+
+.text {
+    padding: 0 1.25rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 1.25rem;
+    flex-grow: 1;
+}
+
+.collegeprep_container {
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.collegeprep {
+    color: #002e5e;
+    height: 65vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.collegeprep h2 {
+    font-size: 3rem;
+}
+
+.collegeprep p {
+    font-size: 1.25rem;
+    padding: 0 15%;
+    text-align: center;
+}
+
+.images {
+    gap: 1.25rem;
+    display: flex;
+    justify-content: center;
+}
+
+.images img {
+    max-height: 6.25rem;
+    object-fit: cover;
+    flex-shrink: 0;
+}
+
+#learnmore {
+    width: 12.5rem;
+    height: 3rem;
+    background-color: white;
+    border-color: #002e5e;
+    border-width: 0.1rem;
+    color: #002e5e;
+    font-weight: bold;
+    font-size: 1rem;
+    letter-spacing: 0.1rem;
+    font-family: "Raleway", sans-serif;
+    margin: 1.25rem;
+}
+
+#learnmore:hover {
+    background-color: #002e5e;
+    color: white;
+    cursor: pointer;
+}
+
+.discoveryinnumbers {
+    background-image:url(./assets/images/discoveryinnumbers.webp);
+    height: 60vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around
+}
+
+.discoveryinnumbers h2, .discoveryinnumbers span {
+    margin: 0;
+}
+
+.discoveryinnumbers h2 {
+    font-size: 3rem;
+}
+
+.discoveryinnumbers h3 {
+    margin: 0;
+    font-size: 5rem;
+}
+
+.discoveryinnumbers p {
+    margin: 0;
+    font-size: 1.5rem;
+}
+
+.stats {
+    gap: 1.25rem;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    padding: 0 10%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.stat {
+    width: 15rem;
+}
+
+footer {
+    padding: 1.25rem 0;
+}
+
+footer p {
+    margin: 0;
+}
+
+.dsinfo {
+    display: flex;
+    justify-content: space-around;
+    align-items: baseline;
+}
+
+.infobox {
+    width: 31rem;
+    font-size: 1rem;
+    text-align: center;
+}
+
+.contactus {
+    text-align: center;
+}
+
+.copyright {
+    padding-top: 1.8rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
